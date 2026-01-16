@@ -12,7 +12,6 @@ int main() {
         cout << "Pilih: ";
         cin >> pilihan;
 
-        // MENU 1: Fibonacci sebanyak n suku
         if (pilihan == 1) {
             int n;
             cout << "Masukkan n: ";
@@ -72,4 +71,5 @@ int main() {
 
     return 0;
 }
+
 
