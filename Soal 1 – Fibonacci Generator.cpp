@@ -33,8 +33,6 @@ int main() {
                 cout << endl;
             }
         }
-
-    
         else if (pilihan == 2) {
             int m;
             cout << "Masukkan m: ";
@@ -44,9 +42,7 @@ int main() {
                 cout << "Input tidak valid!" << endl;
             } else {
                 int a = 0, b = 1, hasil;
-
                 cout << "\nHasil (<= " << m << "):" << endl;
-
                 while (a <= m) {
                     cout << a << " ";
                     hasil = a + b;
@@ -56,14 +52,10 @@ int main() {
                 cout << endl;
             }
         }
-
-      
         else if (pilihan == 3) {
             cout << "Program selesai. Terima kasih!" << endl;
             break;
         }
-
-    
         else {
             cout << "Pilihan tidak tersedia!" << endl;
         }
@@ -71,5 +63,6 @@ int main() {
 
     return 0;
 }
+
 
 
